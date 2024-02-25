@@ -1,2 +1,2 @@
 # CV de Xavier Figari
-Ouvrir index.html
+Pour visualiser : aller sur https://xavierfigari.github.io
