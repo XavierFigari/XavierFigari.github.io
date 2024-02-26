@@ -62,7 +62,8 @@
 <!-- ======= Hero Section ======= -->
 <div class="container-fluid g-0">
     <div class="card text-bg-dark border border-0 rounded-0">
-        <img style="height: 200px;" src="img/technology.jpg" class="card-img object-fit-cover opacity-75" alt="background">
+        <img style="height: 200px;" src="img/technology.jpg" class="card-img object-fit-cover opacity-75"
+             alt="background">
         <div class="card-img-overlay d-flex">
             <div class="align-self-center mx-auto text-center card-title">
                 <h1>Xavier Figari</h1>
@@ -72,33 +73,35 @@
     </div>
 </div>
 
-<!-- ======= L'essentiel ======= -->
-<div class="container my-5 text-center  w-50">
+<!-- ======= Formation Campus ======= -->
+<div class="container my-3">
+    <h2 class="text-primary text-center mb-4">Formation DevOps au Campus Numérique de Valence</h2>
+
     <div class="card-group mb-3">
 
-        <div class="card justify-content-center">
-            <a href="https://eseo.fr/">
-                <span class="text-primary">Ingénieur </span>
-                <img height="50"
-                     src="img/640px-Logo_ESEO_GROUPE.jpeg" alt="Logo Eseo">
+        <div class="card justify-content-center text-center border-0 border-end">
+            <a href="https://le-campus-numerique.fr/">
+                <img height="90" width="360" src="img/campus_400x100_360.jpg"
+                     alt="Le Campus Numérique in the Alps">
+                <p>En savoir plus sur l'établissement de formation</p>
             </a>
         </div>
 
-        <div class="card justify-content-center">
-            16 ans d’expérience en R&D microélectronique
+        <div class="card justify-content-center border-0 ">
+            <div class="card-body">
+                <div class="h5 card-title">Titre Professionnel d'Administrateur système DevOps</div>
+                <div class="h6 card-subtitle mb-3">Formation de 2 ans, dont 1 an en alternance</div>
+                <div class="card-text">Actuellement en formation, recherche une alternance à partir de septembre 2024
+                </div>
+                <a href="https://le-campus-numerique.fr/wp-content/uploads/2024/01/Programme-Formation-DevOps.pdf">
+                    Télécharger le programme de la formation DevOps
+                </a>
+            </div>
         </div>
 
     </div>
-</div>
 
-<div class="container my-3 text-center">
 
-    <a href="https://le-campus-numerique.fr/">
-        <h4 class="text-primary">En formation en 2024 au Campus Numérique de Valence</h4>
-        <img height="90" width="360" src="img/campus_400x100_360.jpg"
-             alt="Le Campus Numérique in the Alps">
-    </a>
-    <h5 class="text-secondary">TP Administrateur système DevOps</h5>
 </div>
 
 <!-- ======= Compétences DevOps : titre ======= -->
@@ -108,167 +111,170 @@
 </div>
 
 <!-- ======= Bloc compétences DevOps ======= -->
-<div class="container mt-2">
-    <div class="card bg-secondary-subtle mb-3 shadow"> <!-- mb-3 : margin bottom 3-->
-        <div class="row"> <!-- g-0 : no gutter between image an text-->
+<div class="container-fluid bg-primary-subtle mt-2">
+    <div class="container">
+        <div class="card my-3 border-0 bg-primary-subtle"> <!-- mb-3 : margin bottom 3-->
 
-            <!-- Infra, Ops, déploiement -->
+            <div class="row my-3"> <!-- g-0 : no gutter between image an text-->
 
-            <div class="col-md-8">
-                <div class="card-body">
+                <!-- Infra, Ops, déploiement -->
 
-                    <h4>Infra, Ops, déploiement</h4>
+                <div class="col-md-8">
+                    <div class="card-body  ">
 
-                    <!-- ACCORDION 1 : INFRA / OPS -->
+                        <h3>Infra, Ops, déploiement</h3>
 
-                    <div class="accordion" id="accordionDevOpsSkills">
+                        <!-- ACCORDION 1 : INFRA / OPS -->
 
-                        <div class="accordion-item">
-                            <div class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                    Automatisation du déploiement d’une infrastructure dans le cloud
-                                </button>
+                        <div class="accordion" id="accordionDevOpsSkills">
+
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                        Automatisation du déploiement d’une infrastructure dans le cloud
+                                    </button>
+                                </div>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                     data-bs-parent="#accordionDevOpsSkills">
+                                    <div class="accordion-body card-text">
+                                        <p>
+                                            Création de serveurs (automatisation, scripts), automatisation du
+                                            déploiement,
+                                            sécurisation et mise en production.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="collapseOne" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionDevOpsSkills">
-                                <div class="accordion-body card-text">
-                                    <p>
-                                        Création de serveurs (automatisation, scripts), automatisation du déploiement,
-                                        sécurisation et mise en production.
-                                    </p>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                        Déploiement en continu d’une application
+                                    </button>
+                                </div>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                     data-bs-parent="#accordionDevOpsSkills">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Préparation d'un environnement de test, gestion du stockage des données,
+                                            gestion des containers, automatisation de la mise en production avec une
+                                            plateforme type Ansible.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                        Supervision des services déployés.
+                                    </button>
+                                </div>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                     data-bs-parent="#accordionDevOpsSkills">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Définition et mise en place des statistiques de services, exploitation
+                                            d'une solution de supervision.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="accordion-item">
-                            <div class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                    Déploiement en continu d’une application
-                                </button>
-                            </div>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionDevOpsSkills">
-                                <div class="accordion-body">
-                                    <p>
-                                        Préparation d'un environnement de test, gestion du stockage des données,
-                                        gestion des containers, automatisation de la mise en production avec une
-                                        plateforme type Ansible.
-                                    </p>
+                        <!-- END ACCORDION -->
+
+                        <h3 class="mt-3">Développement full-stack</h3>
+
+                        <!-- ACCORDION 2 : DEV -->
+
+                        <div class="accordion" id="accordionDevSkills">
+
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne2"
+                                            aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                        Langages front-end
+                                    </button>
+                                </div>
+                                <div id="collapseOne2" class="accordion-collapse collapse"
+                                     data-bs-parent="#accordionDevSkills">
+                                    <div class="accordion-body card-text">
+                                        <ul>
+                                            <li>HTML et CSS bruts</li>
+                                            <li>Javascript</li>
+                                            <li>JS/CSS frameworks (Bootstrap)</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo2"
+                                            aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                        Langages back-end et SGBD
+                                    </button>
+                                </div>
+                                <div id="collapseTwo2" class="accordion-collapse collapse"
+                                     data-bs-parent="#accordionDevSkills">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>Java</li>
+                                            <li>Programmation Objet</li>
+                                            <li>Frameworks (Laravel)</li>
+                                            <li>SGBD : SQL, MySQL, MariaDB ...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
-                        <div class="accordion-item">
-                            <div class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                    Supervision des services déployés.
-                                </button>
-                            </div>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionDevOpsSkills">
-                                <div class="accordion-body">
-                                    <p>
-                                        Définition et mise en place des statistiques de services, exploitation
-                                        d'une solution de supervision.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- END ACCORDION -->
+
+
                     </div>
+                </div>
 
-                    <!-- END ACCORDION -->
-
-                    <h4 class="mt-3">Développement full-stack</h4>
-
-                    <!-- ACCORDION 2 : DEV -->
-
-                    <div class="accordion" id="accordionDevSkills">
-
-                        <div class="accordion-item">
-                            <div class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                    Langages front-end
-                                </button>
-                            </div>
-                            <div id="collapseOne2" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionDevSkills">
-                                <div class="accordion-body card-text">
-                                    <ul>
-                                        <li>HTML et CSS bruts</li>
-                                        <li>Javascript</li>
-                                        <li>JS/CSS frameworks (Bootstrap)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <div class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                    Langages back-end et SGBD
-                                </button>
-                            </div>
-                            <div id="collapseTwo2" class="accordion-collapse collapse"
-                                 data-bs-parent="#accordionDevSkills">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>PHP</li>
-                                        <li>Java</li>
-                                        <li>Programmation Objet</li>
-                                        <li>Frameworks (Laravel)</li>
-                                        <li>SGBD : SQL, MySQL, MariaDB ...</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
+                <!-- Logos des outils utilisés -->
+                <div class="col-md-4 mt-4 text-center">
+                    <h5 class="fst-italic">Quelques outils et langages utilisés</h5>
+                    <div class="card-body d-flex flex-wrap justify-content-center gap-4">
+                        <!-- some icons can be linked to https://img.icons8.com/color/48/ -->
+                        <img width="48" height="48" src="img/icons/docker.png" alt="docker"/>
+                        <img width="48" height="48" src="img/icons/kubernetes.png" alt="kubernetes"/>
+                        <img width="48" height="48" src="img/icons/terraform.png" alt="terraform"/>
+                        <img width="48" height="48" src="img/icons/ansible.png" alt="ansible"/>
+                        <img width="48" height="48" src="img/icons/linux--v1.png" alt="linux"/>
+                        <img width="" height="48" src="img/icons/logo-html-5-css-javascript.png" alt="html-css-js"/>
+                        <img width="" height="48" src="img/icons/php.svg" alt="php"/>
+                        <img width="48" height="48" src="img/icons/python--v1.png" alt="python"/>
+                        <img width="48" height="48" src="img/icons/java-coffee-cup-logo--v1.png" alt="java"/>
+                        <img width="48" height="48" src="img/icons/icons8-bash-48.png" alt="bash"/>
+                        <img width="48" height="48" src="img/icons/icons8-figma-48.png" alt="figma"/>
+                        <img width="48" height="48" src="img/icons/icons8-bootstrap-48.png" alt="bootstrap"/>
+                        <img width="48" height="48" src="img/icons/Laravel.svg" alt="laravel"/>
+                        <img width="48" height="48" src="img/icons/icons8-mysql-48.png" alt="mysql"/>
+                        <img width="48" height="48" src="img/icons/icons8-mariadb-48.png" alt="mariadb"/>
                     </div>
-
-                    <!-- END ACCORDION -->
-
-                    <div class="card-body text-center">
-                        <a href="https://le-campus-numerique.fr/wp-content/uploads/2024/01/Programme-Formation-DevOps.pdf">
-                            Télécharger le programme de la formation DevOps
-                        </a>
-                    </div>
-
                 </div>
             </div>
 
-            <!-- Logos des outils utilisés -->
-            <div class="col-md-4 mt-4 text-center">
-                <h5 class="fst-italic">Quelques outils et langages utilisés</h5>
-                <div class="card-body d-flex flex-wrap justify-content-center gap-4">
-                    <!-- some icons can be linked to https://img.icons8.com/color/48/ -->
-                    <img width="48" height="48" src="img/icons/docker.png" alt="docker"/>
-                    <img width="48" height="48" src="img/icons/kubernetes.png" alt="kubernetes"/>
-                    <img width="48" height="48" src="img/icons/terraform.png" alt="terraform"/>
-                    <img width="48" height="48" src="img/icons/ansible.png" alt="ansible"/>
-                    <img width="48" height="48" src="img/icons/linux--v1.png" alt="linux"/>
-                    <img width="" height="48" src="img/icons/logo-html-5-css-javascript.png" alt="html-css-js"/>
-                    <img width="" height="48" src="img/icons/php.svg" alt="php"/>
-                    <img width="48" height="48" src="img/icons/python--v1.png" alt="python"/>
-                    <img width="48" height="48" src="img/icons/java-coffee-cup-logo--v1.png" alt="java"/>
-                    <img width="48" height="48" src="img/icons/icons8-bash-48.png" alt="bash"/>
-                    <img width="48" height="48" src="img/icons/icons8-figma-48.png" alt="figma"/>
-                    <img width="48" height="48" src="img/icons/icons8-bootstrap-48.png" alt="bootstrap"/>
-                    <img width="48" height="48" src="img/icons/Laravel.svg" alt="laravel"/>
-                    <img width="48" height="48" src="img/icons/icons8-mysql-48.png" alt="mysql"/>
-                    <img width="48" height="48" src="img/icons/icons8-mariadb-48.png" alt="mariadb"/>
-                </div>
-            </div>
         </div>
-
     </div>
 </div>
 
@@ -366,7 +372,8 @@
                     <h5 class="card-title">C-Cube et LSI Logic</h5>
                     <h6>États-Unis - 1998-2004</h6>
                     <p class="card-text">Staff engineer. Conception de circuits intégrés (langages Verilog, VHDL),
-                        synthèse de circuit, timing check, vérification en langage objet Specman e, scripting csh, awk, perl...
+                        synthèse de circuit, timing check, vérification en langage objet Specman e, scripting csh, awk,
+                        perl...
                     </p>
                 </div>
             </div>
@@ -550,6 +557,26 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+
+<!-- ======= L'essentiel ======= -->
+<div class="container my-5 text-center  w-50">
+    <div class="card-group mb-3">
+
+        <div class="card justify-content-center">
+            <a href="https://eseo.fr/">
+                <span class="text-primary">Ingénieur </span>
+                <img height="50"
+                     src="img/640px-Logo_ESEO_GROUPE.jpeg" alt="Logo Eseo">
+            </a>
+        </div>
+
+        <div class="card justify-content-center">
+            16 ans d’expérience en R&D microélectronique
+        </div>
+
     </div>
 </div>
 
